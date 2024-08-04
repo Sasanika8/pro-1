@@ -1,0 +1,118 @@
+
+body{
+    background-image: url(background.jpg) ;
+    background-size: cover;
+    background-color: #d8db19;
+ 
+}
+.main{
+    color: #f1e7e7;
+}
+ul{
+    list-style-type: none;
+    margin-left: 15%;
+    padding: 0;
+    overflow: hidden;
+    font-size: 130%;
+    font-style:italic;
+  
+}
+li{
+    
+    float: left;
+}
+
+li a:hover {
+    background-color: #524e4e;
+  }
+  
+li a:hover  .dropdown:hover .dropbtn {
+    background-color: #4dd822;
+  }
+.active{
+    background-color: rgb(94, 96, 102);
+}
+
+li a, .dropbtn {
+    display: block;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+  }
+  
+
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bde607;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #eb189a;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+img{
+    width: 14%;
+    height: 20%;
+    padding: 0;
+    margin-top: 0%;
+    position: absolute;
+    top: 0;
+
+}
+.sologan{
+    font-size: 800%;
+     color: rgb(11, 12, 12);
+   margin-top: 0;
+   margin-left: 45%;
+   margin-right: 0%;
+   margin-bottom: 10%;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        position: absolute;
+        top: 250px;
+       
+}
+
+.input {
+   font-style: italic;
+   color: aliceblue;
+   margin-top: 10%;
+   position: absolute;
+   left: 30px;
+   top: 50%;
+   margin-bottom: 10%;
+}
+h2{
+    font-size: 250%;
+  position: absolute;
+  bottom: 70px;
+
+}
+h1{
+    font-size: 350%;
+    position: absolute;
+    top: 20%;
+    
+}
